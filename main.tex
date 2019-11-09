@@ -114,7 +114,7 @@
 
 \begin{itemize}
 \item{\textbf{Action:} take the interviews total meals column and rename it to just interviews with the arrow and then nest it. next is the mutate function with total meals and no members in brackets. Finally we do select and village and total meals.}
-\item{\textbf{Result:}. The things in the environment section changed, so it would appear that it was a success but im not sure.}
+\item{\textbf{Result:}. The things in the environment section changed, so it would appear that it was a success but I'm not sure.}
 \end{itemize}
 
 \item{\textbf{Intention:} Complete activity '3.1, 3.2, 3.3'.}
@@ -124,9 +124,9 @@
 \item{\textbf{Result:} 52 people had 2 meals and 79 people has 3 meals.}
 
 \item{\textbf{Action:} Input interviews nest, group by village nest then summarise the average, minimum and max number of number of family members.}
-\item{\textbf{Result:} Didnt get an error message and seemed to get a reasonable table come up so it appears to be successful.}
+\item{\textbf{Result:} Didn't get an error message and seemed to get a reasonable table come up so it appears to be successful.}
 
-\item{\textbf{Action:} Needed to look at solution as i didnt know how to answer.}
+\item{\textbf{Action:} Needed to look at solution as i didn't know how to answer.}
 \item{\textbf{Result:} I obviously missed something because i had no idea that i needed to load another library function. Still implemented though.}
 
 
@@ -135,11 +135,11 @@
 \item{\textbf{Intention:} Complete activity '4.1, 4.2'.}
 
 \begin{itemize}
-\item{\textbf{Action:} Successfully created the months lack food column, nested and then implemented separate rows code for momnths lack food then seperated with a semiocolon like prevcious lesson showed. nested code the implemented a mutate code, nested then implemented spread.}
+\item{\textbf{Action:} Successfully created the months lack food column, nested and then implemented separate rows code for months lack food then separated with a semicolon like previous lesson showed. nested code the implemented a mutate code, nested then implemented spread.}
 \item{\textbf{Result:} Everything seemed to work although i may have missed a thing here or there and am just unsure.}
 
 \item{\textbf{Action:} selected the months lack food column.}
-\item{\textbf{Result:} Couldn't figure out what else there was to do, didnt get any reasonable answer.}
+\item{\textbf{Result:} Couldn't figure out what else there was to do, didn't get any reasonable answer.}
 
 
 \end{itemize}
@@ -152,20 +152,50 @@
 
 \section{Proof of Concept}
 
-\subsection{Implementing User Stories}
+\subsection{Implementing User Stories and Quality Assurance}
+
+\begin{itemize}
+\item{\textbf{User Story 1:} As a student, i want to be able to view multiple  translations alongside each other, so that i don’t have to go searching every time i get confused with a translated term.}
+\begin{itemize}
+\item{Implementing this user story hinged upon implementing all of the others effectively. Therefore, the steps towards attempting to implement this user story is the completion of the other user stories.} 
+\end{itemize}
+
+\item{\textbf{User Story 2:} As a student i should be able to find public domain translations.}
+\begin{itemize}
+\item{This particular user story was implemented in late September/early October. There was some difficulty in this, initially i attempted to find 5 public domain translations that i had researched and identified before hand but i could not find 3 of them.}
+\item{After going back to the drawing board, i needed to first and foremost fine new translations. Once these translations had been found, i looked for confirmation within the text itself that it was public domain, or if it was not that the fair use licence extended to personal/academic use. }
+\item{Upon completion of this user story, i did not find the complete 5 translations as i had initially listed. Due to this i had to settle for four translations due to time constraints.}
+\end{itemize}
+\item{\textbf{User Story 3:} As a student, i should be able to use the Shell Command in lieu of a GUI.}
+\begin{itemize}
+\item{This part of the user story was addressed within section 2.2 of this document. Due to the scattered nature of my projects i made the error of implementing and recording some user stories in a notebook and some others on this document as i worked on them.} 
+\end{itemize}
+\item{\textbf{User Story 4:} As a student, i should be able to write a shell script that will accurately title each chapter of selected translations.}
+\begin{itemize}
+\item{Initial attempts at changing and moving files with the shell made it clear to me that my command over the content would not be enough to pull translations from entire documents or add coded titles within the large documents. Another unforeseen difficulty with this was that some translations had Chinese translations and other symbols that threw out the documents in a bad way. It would have taken too much time to take this out of the document.}
+\item{The solution to this problem, was to take 5 chapters from each translation and move them into separate coded txt documents.}
+
+\item{I attempted to do this with the shell and whilst being able to rename and move documents one at a time with a code i could not create a code to do it all at the same time. I did not have the time to re learn thee correct way to do it so the most time effective solution was to just utilise the simple mv code to move files and rename files.}
+\end{itemize}
+\item{\textbf{User Story 5:} As a student, i should be able to write a shell script that can pull up a specific chapter of 4 translations within the shell command.}
+\begin{itemize}
+\item{} 
+\end{itemize}
+    
+\end{itemize}
 
 
 \subsection{Results of Utilising the Shell Command Without GUI}
 
 \begin{itemize}
-    \item{\textbf{ 29/10/2019 11:49 Changing file names:} I have been utilising the unix shell to copy and move files and create directories for my dataset to apply my shell script to. I continually tried to implement wildcards to change the names of my .txt documents. After multiple failures i decided that it would be quicker to individually change each file within the shell rather than spending 3 hours looking and learning the right code. Due to this, i successfully implemented name changes and directory making. I ended up creating a seperate directory for each chapter and had a separate .txt for each translated chapter in the format t01c01.txt for example. I implemented the code mv t01c01 t01c02 for example. After a mistake i realised i needed to add the .txt and had success replicating this for each required file name change.} 
+    \item{\textbf{ 29/10/2019 11:49 Changing file names:} I have been utilising the unix shell to copy and move files and create directories for my data set to apply my shell script to. I continually tried to implement wildcards to change the names of my .txt documents. After multiple failures i decided that it would be quicker to individually change each file within the shell rather than spending 3 hours looking and learning the right code. Due to this, i successfully implemented name changes and directory making. I ended up creating a separate directory for each chapter and had a separate .txt for each translated chapter in the format t01c01.txt for example. I implemented the code mv t01c01 t01c02 for example. After a mistake i realised i needed to add the .txt and had success replicating this for each required file name change.} 
 \end{itemize}
 
 
 \subsection{Problems and Solutions/Quality Assurance}
 
 \begin{itemize}
-    \item{\textbf{.xml:} After downloading the relevant translations and converting them to relevant .txt documents, i tried to convert them to .xml through using notepad2. I had a success with t01 and i recorded exactly what i did. Following this, even though i attempted to do the exact same thing i could not replicate what i did and i could not find out why. As i could not create correct .xml files, i decided it would be a better avenue to alter my project to utililising individual .txt documents with each translated chapter in seperate directories per chapter and then utilising a wildcard code to bring the relevant chapters up in the shell command.}
+    \item{\textbf{.xml:} After downloading the relevant translations and converting them to relevant .txt documents, i tried to convert them to .xml through using notepad2. I had a success with t01 and i recorded exactly what i did. Following this, even though i attempted to do the exact same thing i could not replicate what i did and i could not find out why. As i could not create correct .xml files, i decided it would be a better avenue to alter my project to utilising individual .txt documents with each translated chapter in separate directories per chapter and then utilising a wildcard code to bring the relevant chapters up in the shell command.}
     
    
 \end{itemize}
@@ -174,8 +204,9 @@
 
 \subsection{Data Recovery Plan/Version Control}
 
-
-
+\begin{itemize}
+\item{My data recovery plan that was implemented, included back ups onto usb documents, cloudstor, google drive and a github repository. Due to the time sensitive nature of other projects, this was all implemented rather haphazardly and in a very confusing way. The only backups that were clear and easy to find were the documents saved to the overleaf servers. I could always rely on them being there and furthermore their connection to github meant that i had a way to diagnose and resolve problems as needed. }
+\end{itemize}
 
 \section{PICO Presentation}
 
